@@ -1,0 +1,75 @@
+@import url("components/banner.css");
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.btn-blue {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.testimonials {
+  background: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.testimonial {
+  margin: 20px;
+  display: inline-block;
+  width: 280px;
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+}
